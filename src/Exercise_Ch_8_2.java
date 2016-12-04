@@ -21,7 +21,7 @@ public class Exercise_Ch_8_2 {
     public static int grapefruit(int[] a, int grape) {
         for (int i = 0; i < a.length; i++) {
             if (a[i] == grape) {//grape is the searched value
-                return i;
+                return i;//returning index of searced value in an array
             }
         }
         return -1;
